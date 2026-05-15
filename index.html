@@ -1,39 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculariza-o</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descobrindo Brusque</title>
+
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+  <div class="celular">
 
-        <div id="inicio" class="tela ativa">
-            <h1>🎉 Curriculariza-o 🎉</h1>
-            <p>
-                Aprenda brincando sobre a cidade de Brusque!
-            </p>
-            <button onclick="iniciarJogo()">Começar Jogo</button>
-        </div>
+    <div class="titulo">
+      <h1>Descobrindo</h1>
+      <h2>Brusque</h2>
+    </div>
 
-        <div id="quiz" class="tela">
-            <h2 id="pergunta"></h2>
+    <div class="subtitulo">
+      Uma aventura divertida!
+    </div>
 
-            <div id="respostas"></div>
+    <div class="area-personagem">
 
-            <p id="contador"></p>
-        </div>
 
-        <div id="final" class="tela">
-            <h1>🏆 Fim do Jogo!</h1>
-            <h2 id="pontuacaoFinal"></h2>
-            <button onclick="reiniciarJogo()">Jogar Novamente</button>
-        </div>
+       <img src="/img/capivara.webp" alt="Capivara" class="personagem"> 
 
     </div>
 
-    <script src="script.js"></script>
+    <div class="botao">
+      COMEÇAR
+      <div class="play">▶</div>
+    </div>
+
+    <div class="texto-inferior">
+      Ideal para crianças de 4 a 5 anos
+    </div>
+
+    <div class="menu">
+
+      <div class="item-menu">
+        📘 <br>
+        Mapa
+      </div>
+
+      <div class="item-menu inicio">
+        🏠 <br>
+        Início
+      </div>
+
+      <div class="item-menu">
+        🏆 <br>
+        Troféus
+      </div>
+
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
