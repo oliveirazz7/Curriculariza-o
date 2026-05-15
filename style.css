@@ -1,0 +1,63 @@
+* {
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff8f3d;
+    transform: scale(1.05);
+}
+
+#respostas {
+    display: flex;
+    flex-direction: column;
+}
+
+#contador {
+    margin-top: 20px;
+    color: #666;
+}
+
+.tela {
+    display: none;
+}
+
+.tela.ativa {
+    display: block;
+}
+
+.correta {
+    background-color: #4CAF50 !important;
+}
+
+.errada {
+    background-color: #f44336 !important;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
