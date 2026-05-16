@@ -1,4 +1,4 @@
-# Curriculariza-o
+# Curricularização
 Curricularização da extensão parte 2
 
 Integrantes: Pedro Henrique Zimmermann, Kauan Gonçalves Oliveira, Leonardo Nascimento e Matheus Guiselin.
